@@ -62,4 +62,5 @@ DB_NAME=test_db
   - Using local db:
     - create new db
     - running in db query tool: `CREATE EXTENSION IF NOT EXISTS ltree;`
+    - running: `alembic upgrade head`
     - running: `dev_ops/postgres/migration_script.py`
